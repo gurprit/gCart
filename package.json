@@ -1,9 +1,16 @@
 {
-  "name": "blockland",
+  "name": "gCart500",
   "version": "0.0.1",
   "description": "multi-player socket.io app",
+  "main": "app.js",  // Assuming your main file is app.js
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^2.2.0"
+  },
+  "engines": {
+    "node": "14.x"  // Specify the Node.js version you are using
   }
 }
