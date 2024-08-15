@@ -47,8 +47,8 @@ io.sockets.on('connection', function(socket){
 	})
 });
 
-http.listen(2032, function(){
-  console.log('listening on *:2032');
+http.listen(2002, function(){
+  console.log('listening on *:2002');
 });
 
 setInterval(function(){
